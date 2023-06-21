@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Fragments.FirstFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose username"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="30sp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_can_always_change_it_later"
+        android:paddingVertical="10dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/username"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="15dp"
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/edtshapw"
+        android:textAllCaps="false">
+
+    </EditText>
+    <EditText
+        android:id="@+id/tv_nema"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/name"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="15dp"
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/edtshapw"
+        android:textAllCaps="false">
+
+    </EditText>
+    <EditText
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/description"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="15dp"
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/edtshapw"
+        android:textAllCaps="false">
+
+    </EditText>
+    <EditText
+        android:id="@+id/tv_jop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="jop"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="15dp"
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/edtshapw"
+        android:textAllCaps="false">
+
+    </EditText>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_enter"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="15dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+
+        android:layout_marginVertical="47dp"
+
+        app:cornerRadius="7dp"
+        android:padding="15dp"
+        android:backgroundTint="#0774CA"
+        android:textColor="@color/white"
+        android:elevation="15dp"
+        android:layout_marginTop="65dp"
+        android:text="Next"/>
+
+
+</LinearLayout>
